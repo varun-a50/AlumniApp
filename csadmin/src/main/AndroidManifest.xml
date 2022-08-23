@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.csadmin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlumniApp">
+        <activity
+            android:name=".Admin_Profile_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".SearchforAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".SearchforStudent"
+            android:exported="false" />
+        <activity
+            android:name=".SearchforStudentOrAlumni"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".Make_Post_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".All_Alumni_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".All_Student_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".All_Event_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Event_schedule_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Profile_update"
+            android:exported="false" />
+        <activity
+            android:name=".Home_admin"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Admin_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

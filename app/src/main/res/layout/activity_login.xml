@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/bg_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        app:srcCompat="@drawable/alumni" />
+
+    <ImageView
+        android:id="@+id/corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="136dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/corner" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="96dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Your_Email"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="96dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <TextView
+        android:id="@+id/fgpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="96dp"
+        android:text="Forget Password"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/signin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="28dp"
+        android:text="Not registered yet?"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin" />
+
+    <Button
+        android:id="@+id/register_login"
+        android:layout_width="105dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white"
+        android:text="Alumni"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="OR"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/register_student"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:text="Student"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:layout_height="23dp"
+
+        android:layout_marginTop="12dp"
+        android:text="REGISTER as Alumni or Student / Admin  "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FAF4F4"
+        android:text="Admin Registration"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="@+id/register_student"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/register_student"
+        app:layout_constraintTop_toBottomOf="@+id/register_student" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

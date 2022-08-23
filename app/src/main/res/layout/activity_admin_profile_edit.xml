@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Profile_Edit">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/profile_photo"
+        app:civ_border_color="@color/purple_500"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintBottom_toTopOf="@+id/rg_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Middle Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintBottom_toBottomOf="@+id/et1"
+        app:layout_constraintStart_toEndOf="@+id/et1"
+        app:layout_constraintTop_toTopOf="@+id/et1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintBottom_toBottomOf="@+id/et2"
+        app:layout_constraintStart_toEndOf="@+id/et2"
+        app:layout_constraintTop_toTopOf="@+id/et2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/rg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/et3"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/et1"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Mobile no"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/rg_email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rg_email"
+        app:layout_constraintTop_toBottomOf="@+id/rg_email" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile"
+        app:layout_constraintVertical_bias="0.06" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

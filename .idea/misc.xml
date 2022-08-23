@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable-v24/profile.xml" value="0.2045" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable-v24/profile_photo.xml" value="0.2045" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable-v24/search_24.xml" value="0.121" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable/no_transparency.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable/person.xml" value="0.155" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable/round_textview.xml" value="0.192" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable/rounded_edit.xml" value="0.192" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable/thumb.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/drawable/year.xml" value="0.192" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_all_event.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_make_post.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_profile_upload.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_profile_upload_students.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_registration2.xml" value="0.176" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_search.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_searchfor_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_searchfor_student.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_searchfor_student_or_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_student_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_student_registration.xml" value="0.15853658536585366" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_test.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/activity_update_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/event.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/events_trick.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/headerfile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/post.xml" value="0.25" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/layout/search_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/menu/search.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/app/src/main/res/menu/sidemenu.xml" value="0.25" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/drawable-v24/button_corner.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/drawable-v24/customer_services.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/drawable-v24/setting.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/drawable/person.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_admin_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_admin_profile_edit.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_admin_profile_update.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_admin_registration.xml" value="0.264" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_all_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_all_event.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_all_student.xml" value="0.176" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_event_schedule.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_make_post.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_search.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_searchfor_student_or_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/activity_show_post.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/all_alumnis.xml" value="0.2" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/all_student.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/all_students.xml" value="0.16" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/event.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/events_trick.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/headerfile.xml" value="0.1" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/post.xml" value="0.4" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/layout/search_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/menu/search.xml" value="0.25" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/AlumniApp/csadmin/src/main/res/menu/sidemenu.xml" value="0.1" />
+        <entry key="..\:/alumniapp/app/src/main/res/drawable/button_bg.xml" value="0.155" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_admin_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_admin_registration.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_all_alumni_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_all_event_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_all_student_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_forgot_password.xml" value="0.10989583333333333" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_home.xml" value="0.10833333333333334" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_home_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_individual_profile_card.xml" value="0.264" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_individual_profile_card_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_main2.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_make_post_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_profile_upload.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_registration.xml" value="0.10989583333333333" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_registration2.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_searchfor_student_or_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_student_registration.xml" value="0.10989583333333333" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/activity_update_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/all_alumnis.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/all_students.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/event.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/event_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/fragment_2.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/fragment_login_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/headerfile.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/post_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/layout/search_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/app/src/main/res/menu/search.xml" value="0.25" />
+        <entry key="..\:/alumniapp/app/src/main/res/menu/sidemenu.xml" value="0.25" />
+        <entry key="..\:/alumniapp/app/src/main/res/menu/sidemenu_admin.xml" value="0.25" />
+        <entry key="..\:/alumniapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.155" />
+        <entry key="..\:/alumniapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.155" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/activity_all_alumni.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/activity_all_event.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/activity_event_schedule_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/all_students.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/event.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/event_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/events_trick.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/layout/post.xml" value="0.22826086956521738" />
+        <entry key="..\:/alumniapp/csadmin/src/main/res/menu/sidemenu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawerlayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/sidemenu"
+        android:layout_gravity ="start"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".Home">
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:background="@drawable/search2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/ShapeAppearance.MaterialComponents.Tooltip"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:title="Alumni Connect" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/no_transparency"
+                android:ems="10"
+                android:hint="  Search for Alumni...."
+                android:inputType="textPersonName"
+                android:textColorHint="#484848"
+                app:layout_constraintBottom_toBottomOf="@+id/view"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                app:layout_constraintVertical_bias="0.414" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="88dp"
+                android:backgroundTint="#00BCD4"
+                android:text="Search"
+                app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:elevation="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="621dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="4dp"
+                app:layout_constraintEnd_toEndOf="@+id/view4"
+                app:layout_constraintStart_toStartOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/view4">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="121dp"
+                        android:layout_height="62dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Events"
+                        android:textSize="36dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

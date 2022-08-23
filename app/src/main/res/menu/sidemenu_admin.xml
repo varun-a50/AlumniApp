@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+           android:id="@+id/group_item">
+
+        <item android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="profile"/>
+        <item android:id="@+id/Students_record"
+            android:icon="@drawable/person"
+            android:title="Student Records"/>
+        <item android:id="@+id/Alumni_record"
+            android:icon="@drawable/person"
+            android:title="Alumni Record" />
+        <item android:id="@+id/Create_record"
+            android:icon="@drawable/person"
+            android:title="Create Event" />
+        <item android:id="@+id/Create_Post"
+            android:icon="@drawable/person"
+            android:title="Create Post" />
+        <item android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

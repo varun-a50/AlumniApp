@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Individual_profile_card_alumni">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image2"
+        android:layout_width="132dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/profile_photo"
+        app:civ_border_color="@color/purple_500"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="132dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="132dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image2" />
+
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="132dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Middle Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintStart_toStartOf="@+id/profile_image2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image2" />
+
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="132dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintStart_toEndOf="@+id/profile_image2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image2" />
+
+    <TextView
+        android:id="@+id/rg_email"
+        android:layout_width="244dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/et3"
+        app:layout_constraintStart_toStartOf="@+id/et1"
+        app:layout_constraintTop_toBottomOf="@+id/et2" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="239dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Mobile no"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/rg_email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rg_email"
+        app:layout_constraintTop_toBottomOf="@+id/rg_email" />
+
+    <EditText
+        android:id="@+id/et21"
+        android:layout_width="241dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Company/Workplace name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/mobile"
+        app:layout_constraintStart_toStartOf="@+id/mobile"
+        app:layout_constraintTop_toBottomOf="@+id/mobile" />
+
+    <EditText
+        android:id="@+id/et22"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="Work Experience"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/et21"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et21"
+        app:layout_constraintTop_toBottomOf="@+id/et21" />
+
+    <EditText
+        android:id="@+id/et23"
+        android:layout_width="240dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Write something about you"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintEnd_toEndOf="@+id/et22"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et22"
+        app:layout_constraintTop_toBottomOf="@+id/et22" />
+
+    <TextView
+        android:id="@+id/grades"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_textview"
+        android:ems="10"
+        android:hint="...."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#484848"
+        app:layout_constraintStart_toStartOf="@+id/et23"
+        app:layout_constraintTop_toBottomOf="@+id/et23" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/year"
+        android:ems="10"
+        android:text="Graduation Year :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/et23"
+        app:layout_constraintTop_toBottomOf="@+id/et23" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
